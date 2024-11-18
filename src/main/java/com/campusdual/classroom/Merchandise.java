@@ -29,11 +29,11 @@ public abstract class Merchandise {
 
 	public String getLocation() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Z - ");
+		builder.append("Z-");
 		builder.append(getZone());
-		builder.append(" A - ");
+		builder.append(" A-");
 		builder.append(getArea());
-		builder.append(" E - ");
+		builder.append(" E-");
 		builder.append(getShelf());
 		return builder.toString();
 	}
